@@ -1,0 +1,7 @@
+#output files
+*.out
+
+*.o
+
+hello-openmp/hello-openmp-gcc
+
