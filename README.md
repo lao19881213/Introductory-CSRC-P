@@ -312,7 +312,5 @@ Launch the program:
 `srun --export=all -N 1 -n 1 -p purley-cpu python3 hello-serial.py`
 
 ## Job cancel
-`scancel jobid`
-
-
+`scancel JOBID`
 
