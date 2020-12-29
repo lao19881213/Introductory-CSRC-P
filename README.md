@@ -13,6 +13,7 @@ China SKA Regional Centre Prototype (CSRC-P) systems can use Slurm for resource 
 * [Lauching Paralle Programs](#Lauching-Paralle-Programs)
 * [GPU Example](#GPU-Example)
 * [Interactive Jobs](#Interactive-Jobs)
+* [Job cancel](Job-cancel)
 
  
 A SLURM partition is a queue, which is all the partition that are managed by a single SLURM daemon.
@@ -309,6 +310,9 @@ Prepare the environment:
 
 Launch the program:   
 `srun --export=all -N 1 -n 1 -p purley-cpu python3 hello-serial.py`
+
+## Job cancel
+`scancel jobid`
 
 
 
