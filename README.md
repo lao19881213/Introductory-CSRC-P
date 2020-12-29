@@ -303,7 +303,7 @@ Exit the interactive session:
 `exit`
 
 
-You can also run a hello-serial interactively only using srun:
+You can also run a hello-serial interactively only using srun:  
 Prepare the environment:  
 `module use /home/app/modulefiles`  
 `module load python/cpu-3.7.4`  
