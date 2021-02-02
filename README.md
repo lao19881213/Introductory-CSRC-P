@@ -265,10 +265,10 @@ module load cuda/9.0
 srun --export=all -N 1 -n 1 ./hello-gpu
 ```
 The script can be submitted to the scheduler with:  
-`cd hello-gpu`
-`module load cuda/9.0`
-`nvcc -o hello-gpu hello-gpu.cu`
-`sbatch hello-gpu.sh`
+`cd hello-gpu`    
+`module load cuda/9.0`  
+`nvcc -o hello-gpu hello-gpu.cu`  
+`sbatch hello-gpu.sh`  
 
 
 All scripts can be downloaded from this git repository:   
