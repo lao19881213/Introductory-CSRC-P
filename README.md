@@ -318,7 +318,6 @@ Launch the program:
 To prevent conflicts between software names and versions, applications and libraries are not installed in the standard directory locations. Modules modify the environment to easily locate software, libraries, documentation, or particular versions of the software.  
 
 Module system to manage these variables for each application   
-```
 |Command | Description |
 |module avail | Show available modules|
 |module list |List loaded modules|
@@ -327,7 +326,7 @@ Module system to manage these variables for each application
 |module swap `module1` `module2` |Swap a loaded module with another|
 |module show `modulename` |Give help for a particular module|
 |module help |Show module specific help|
-```
+
 
 The modulefiles for users are in /home/app/modulefiles directory. 
 Example of load gcc compiler version of 9.30. 
