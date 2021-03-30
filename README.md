@@ -318,14 +318,15 @@ Launch the program:
 To prevent conflicts between software names and versions, applications and libraries are not installed in the standard directory locations. Modules modify the environment to easily locate software, libraries, documentation, or particular versions of the software.  
 
 Module system to manage these variables for each application   
-|Command | Description |
-|module avail | Show available modules|
-|module list |List loaded modules|
-|module load `modulename` |Load a module into the current environment|
-|module unload `modulename` |Unload a module from the environment|
-|module swap `module1` `module2` |Swap a loaded module with another|
-|module show `modulename` |Give help for a particular module|
-|module help |Show module specific help|
+| Command | Description |
+| :------------- | :--------- |
+| module avail | Show available modules |
+| module list | List loaded modules |
+| module load `modulename` | Load a module into the current environment |
+| module unload `modulename` | Unload a module from the environment |
+| module swap `module1` `module2` | Swap a loaded module with another |
+| module show `modulename` | Give help for a particular module |
+| module help | Show module specific help |
 
 
 The modulefiles for users are in /home/app/modulefiles directory. 
