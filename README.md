@@ -150,7 +150,7 @@ The `jobscript` will execute on one of the allocated compute node
 #SBATCH --time=00:05:00 # walltime requested  
 #SBATCH --export=NONE # start with a clean environment.  This improves reproducibility and avoids contamination of the environment.  
 #The next line is executed on the compute node  
-hostname  
+srun /usr/bin/hostname  
 ```
 ### Launch the job with sbatch:  
 `sbatch hostname.sh`
