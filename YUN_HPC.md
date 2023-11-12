@@ -120,4 +120,12 @@ mmlsquota -u <username>
 https://113.55.126.21:47443
 ```
 
+```
+关机：
+psh all poweroff
+先GPFS->关闭节点->在关mn01 （手动）
+GPFS: mmshutdown -a
+mn01: poweroff
+```
+
 
