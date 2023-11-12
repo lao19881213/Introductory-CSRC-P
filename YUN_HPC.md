@@ -23,5 +23,14 @@ modulefiles: /share/base/modulefiles
 SLURM 
 GPFS 5.1
 ```
+## File system
+```
+/share/apps: software
+/share/base: modulefiles, base software gcc 
+/share/0_download
+/share/intel
+/share/home/<username>: user home 
+```
+
 
 
