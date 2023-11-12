@@ -114,7 +114,7 @@ mmlsdisk
 mmsetquota
 mmsetquota fs01 --user username --block 250G:300G
 报告限额：
-mmrepquota
+mmrepquota fs01 --block-size auto
 列出单个用户限额
 mmlsquota -u <username>
 https://113.55.126.21:47443
