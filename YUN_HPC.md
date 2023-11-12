@@ -54,6 +54,21 @@ srun -n 4 hostname (single node)
 srun -N 2 hostname (two nodes)
 srun -N 2 -n 2 hostname (two nodes one node one process)
 ```
+```
+shownodes
+```
+```
+#!/bin/bash  
+#SBATCH --job-name=myjob  #makes it easier to find in squeue  
+#SBATCH --partition=cpu # partition name  
+#SBATCH --nodes=2 # number of nodes  
+#SBATCH --tasks-per-node=1 #processes per node  
+#SBATCH --cpus-per-task=1 #cores per process
+#SBATCH --mem 2048 
+#SBATCH --time=00:05:00 # walltime requested  
+
+srun /usr/bin/hostname 
+```
 
 
 
