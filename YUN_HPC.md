@@ -48,7 +48,8 @@ no RPM --> /share/apps, /share/home/<username>
 ```
 ## SLURM
 ``` 
-srun -N 1 --nodelist=c002 hostname (-w)
+srun -N 1 --nodelist=c002 hostname (-w specific node)
+surn -N 1 --exclude=c002 hostname (-x exclude node) 
 srun -n 4 hostname (single node)
 srun -N 2 hostname (two nodes)
 srun -N 2 -n 2 hostname (two nodes one node one process)
