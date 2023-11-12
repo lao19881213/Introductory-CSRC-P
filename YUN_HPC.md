@@ -98,9 +98,26 @@ scontrol show node <nodename>
 scontril update node <nodename> state=resume
 ```
 ```
+查看状态：mmgetstate -a
+关闭GPFS：mmshutdown -a
+mmshutdown -N hostname 
  开启GPFS
 mmstartup -a
 mmstartup 
+收集支持数据
+gpfs snap -N <>
+检查DPFS磁盘状态
+mmlsdisk 
+```
+```
+设置限额：
+mmsetquota
+mmsetquota fs01 --user username --block 250G:300G
+报告限额：
+mmrepquota
+列出单个用户限额
+mmlsquota -u <username>
+https://113.55.126.21:47443
 ```
 
 
