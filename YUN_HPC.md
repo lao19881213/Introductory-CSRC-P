@@ -127,5 +127,28 @@ psh all poweroff
 GPFS: mmshutdown -a
 mn01: poweroff
 ```
+```
+/etc/slurm/slurm.conf
+systemctl restart slurmctld
+psh compute "systemctl restart slurmd"
+psh c[001-003] "systemctl restart slurmd"
+```
+
+```
+ 端口管理：
+vi /opt/openssh/9.5p1/etc/sshd_config
+修改端口：
+Port 9022
+重启服务
+systemctl 
+```
+ 
+```
+查看被ban的ip
+fail2ban-cilent status sshd
+查看fail2ban日志
+cat /var/log/fail2ban.log
+```
+
 
 
