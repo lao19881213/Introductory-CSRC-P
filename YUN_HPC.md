@@ -20,6 +20,8 @@ centos
 gcc 8.4.1
 /share/intel/2022.2.3
 modulefiles: /share/base/modulefiles
-SLURM
+SLURM 
+GPFS 5.1
 ```
+
 
