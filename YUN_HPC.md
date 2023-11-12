@@ -32,6 +32,20 @@ GPFS 5.1
 /share/home/<username>: user home
 /share/data
 ```
+## data transport
+```
+1.
+scp
+rsync
+Xftp
+port: 22/9022
+2. web
+```
+## Installation
+```
+RPM
+no RPM --> /share/apps, /share/home/<username>
+```
 
 
 
