@@ -69,6 +69,9 @@ shownodes
 
 srun /usr/bin/hostname 
 ```
+```
+scontrol show job <jobid> | grep Memory
+```
 
 
 
