@@ -72,6 +72,35 @@ srun /usr/bin/hostname
 ```
 scontrol show job <jobid> | grep Memory
 ```
-
+## 维护
+```
+周期性检查节点
+周期性存储检查
+```
+```
+web界面有警告
+有问题-->保修
+Lico-->监控 列表视图
+点击IP地址查看问题
+```
+```
+管理地址、保修 提供 序列号 IB地址
+```
+```
+400-106-8888
+抓日志
+服务日志（压缩包）
+```
+```
+SLURM管理
+slurmctld mn01
+scontrol show node <nodename>
+scontril update node <nodename> state=resume
+```
+```
+ 开启GPFS
+mmstartup -a
+mmstartup 
+```
 
 
