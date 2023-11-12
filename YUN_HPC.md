@@ -46,6 +46,9 @@ port: 22/9022
 RPM
 no RPM --> /share/apps, /share/home/<username>
 ```
+## SLURM
+```
+```
 
 
 
