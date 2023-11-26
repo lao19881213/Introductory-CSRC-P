@@ -150,5 +150,10 @@ fail2ban-cilent status sshd
 cat /var/log/fail2ban.log
 ```
 
+## sinfo: cpu*         up   infinite      1   down c001 解决方法
+```
+sudo scontrol update NodeName=c001 state=resume
+```
+
 
 
