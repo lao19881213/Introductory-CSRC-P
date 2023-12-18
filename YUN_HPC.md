@@ -98,11 +98,11 @@ scontrol show node <nodename>
 scontril update node <nodename> state=resume
 ```
 ```
-查看状态：mmgetstate -a
+查看状态：/usr/lpp/mmfs/bin/mmgetstate -a 
 关闭GPFS：mmshutdown -a
 mmshutdown -N hostname 
  开启GPFS
-mmstartup -a
+/usr/lpp/mmfs/bin/mmstartup -a
 mmstartup 
 收集支持数据
 gpfs snap -N <>
