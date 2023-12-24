@@ -155,5 +155,19 @@ cat /var/log/fail2ban.log
 sudo scontrol update NodeName=c001 state=resume
 ```
 
+## 后台运行程序
+```
+如果大家想在超算上运行程序（不是递交作业那种），比如拷贝数据，怕网段了或者退出超算程序就终止了，可以用tmux，简单操作：
+--- 创建一个Session:   tmux new -s  mysession (mysession可以换成自己起的名字）
+
+会创建一个session，在这里运行命令。
+
+退出session，ctral + b + d
+重新进入session: tmux a -t mysession
+删除session，在session 界面 敲入exit即可
+
+这样退出超算，运行的程序不会终止。
+```
+
 
 
